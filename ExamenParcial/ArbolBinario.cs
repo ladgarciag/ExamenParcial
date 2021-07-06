@@ -9,7 +9,7 @@ namespace ExamenParcial
     class ArbolBinario
     {
         NodoArbol raiz, p;
-        NodoArbol aux = new NodoArbol()
+        NodoArbol aux = new NodoArbol();
          public void crearArbolLexicografico(int x)
         {
             if (raiz == null)
@@ -42,7 +42,7 @@ namespace ExamenParcial
                 }
             }
            
-                
-        }
+               
+         }
     }
 }
